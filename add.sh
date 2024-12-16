@@ -2,7 +2,7 @@
 Import-Module ActiveDirectory
  
 # Definer stien til CSV-filen
-$csvPath = "C:\Users\Administrator\Documents\brukere.csv"
+$csvPath = "C:\Users\Administrator\Documents\staff.csv"
  
 # Les CSV-filen
 $users = Import-Csv -Path $csvPath
